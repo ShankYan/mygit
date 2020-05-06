@@ -83,4 +83,7 @@ https://www.cnblogs.com/YMaster/p/9788938.html
 	https://www.cnblogs.com/zlslch/p/9281016.html
 	
 20 查看版本号
- https://blog.csdn.net/shuaigexiaobo/article/details/78030008
+	https://blog.csdn.net/shuaigexiaobo/article/details/78030008
+	
+21  sourceTree 使用教程
+	https://www.jianshu.com/p/6b5ed581b158
