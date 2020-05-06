@@ -1,0 +1,86 @@
+1.配置IP
+https://www.cnblogs.com/luxiaodai/p/9947343.html
+
+service net-work restart
+虚拟机网络配置 在
+	编辑-虚拟网络编辑器
+	
+	
+	cd /etc/sysconfig/network-scripts/
+	vi ifcfg-ens33
+2 centos ifconfig command not found
+	cd /sbin 没有 ifconfig
+	sudo yum install net-tools
+	可以了
+3 安装 vim
+	https://blog.csdn.net/qq_38214193/article/details/81114445
+4  mount /dev/cdrom /mnt/cdrom  一定不要用百度 用必应第二个就是答案，百度各种坑
+		挂载很多次都是read_only
+	这样就达不到文件共享，
+	1. 重装了 WMTool  重装了好多次都装不好，最后
+	https://blog.csdn.net/sirchenhua/article/details/49719659
+	一定要 yum -y update 一定要重启 
+	花了半天的教训啊
+	2.  挂载是只读的各种百度上说的都是一样的 要么看 虚拟机的镜像文件
+	设备状态是否 已连接，启动时连接等等
+	最后发现我的ios 镜像文件是只读的，然后设置为完全控制，重启虚拟机，重启
+	win10电脑 
+	打开还是一样的结果
+	3.vmhgfs-fuse .host:/ /mnt/hgfs 然后可以了
+	
+	
+	最后解决方法：https://www.cnblogs.com/itpython/p/10624080.html
+	我是在开机文件下加 .sh 文件，文件内容 vmhgfs-fuse .host:/ /mnt/hgfs 
+	https://www.cnblogs.com/sunny-zhao/p/10867397.html
+	 
+	 
+	https://www.cnblogs.com/luoheng23/p/10956017.html
+5 Centos 不能显示中文汉字，这个不在乎了，反正 SecureCrt能够显示中文
+	
+6. vim 显示行号 set nu
+	https://blog.csdn.net/x763795151/article/details/91642530
+	
+7. 设置自动登录账号密码 RAS key
+	可以重新设置端口
+	https://www.xiaohuai.com/3454 注意用命令复制，如果直接鼠标copy 不行
+8. 安装mysql
+	https://www.cnblogs.com/bigbrotherer/p/7241845.html
+	1.寻找初始密码
+	2.重置使可以设置简单密码
+	3.
+9. 安装python3
+	https://www.jianshu.com/p/15f40edefb13
+	
+
+	
+10 .centos7.4 which、whereis、locate的使用
+	https://www.cnblogs.com/whyd/p/11757764.html
+
+	
+11. 安装erlang
+	https://blog.csdn.net/ws_kfxd/article/details/85858736
+	
+12. Linux中rz和sz命令用法详解
+	https://blog.csdn.net/magaiou/article/details/80322060
+	
+13：linux主机名被更改为bogon原理分析
+	https://blog.csdn.net/weiwan721/article/details/48463371
+	
+14 安装 git
+	https://blog.csdn.net/hdn_kb/article/details/90696500 安装
+	
+15 增加环境变量
+https://jingyan.baidu.com/article/0f5fb099370f146d8234ea43.html
+
+16 命令别称
+https://www.cnblogs.com/YMaster/p/9788938.html
+	
+17 无法显示中文，弄了好久都不行，本来还可以的不知道怎么回事 《》
+18 liunx 下的git 也没弄爽利
+
+19 windows GIT 安装
+
+	https://www.cnblogs.com/zlslch/p/9281016.html
+	
+20 查看版本号
+ https://blog.csdn.net/shuaigexiaobo/article/details/78030008
