@@ -87,3 +87,14 @@ https://www.cnblogs.com/YMaster/p/9788938.html
 	
 21  sourceTree 使用教程
 	https://www.jianshu.com/p/6b5ed581b158
+
+	
+22 linux  screen 
+	https://www.imooc.com/article/17788?block_id=tuijian_wz
+	
+23 linux echo -e 命令
+	https://blog.csdn.net/dahailantian1/article/details/78584895
+	
+	
+24  linux中没有tree命令，command not found，解决办法
+https://www.cnblogs.com/yummylucky/p/10512034.html
